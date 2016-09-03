@@ -1,0 +1,118 @@
+* {
+	padding: 0;
+	margin:0;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+#header {
+	position: relative;
+}
+#review {
+	width: 90vw;
+	padding-top: 150px;
+	margin: auto;
+	background: rgba(222,222,222, 0.1);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+#review h4 {
+		margin-left: 1em;
+	}
+
+#review img {
+	position: relative;
+}
+
+.teaser {
+	margin: auto;
+	text-align: center;
+	max-width: 450px;
+}
+
+.teaser h2 {
+	margin-bottom: 1em;
+	text-transform: uppercase;
+}
+
+.teaser p {
+	color: #888888;
+	font-weight: 300;
+	margin: 1em 0;
+	line-height: 1.6em;
+}
+.teaser hr {
+	max-width: 450px;
+}
+
+.products {
+	height: 100%;
+	margin-bottom: 50px;
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+}
+
+.products div {
+	margin: auto;
+}
+.products h1 {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.products img {
+	border: 1px solid #f1f1f1;
+	border-radius: 150px;
+}
+
+.products a {
+	text-decoration: none;
+	color: #000000;
+}
+
+.price {
+	border: 2px solid #ccc;
+	max-width: 150px;
+	margin: 20px auto;
+	padding: 10px;
+}
+
+.price:hover {
+	background: #000000;
+	color: #ffffff;
+}
+
+
+.products img:hover {
+    transition: -webkit-transform 0.5s ease;
+}
+
+.products img:hover {
+    -webkit-transform: scale(1.4);
+}
+
+.describe {
+	max-width: 450px; 
+	line-height: 1.6em; 
+	text-align: left; 
+	margin: 2em auto;
+}
+
+@media screen and (max-width: 620px) {
+
+	#review h4 {
+		margin-left: 1em;
+	}
+	.describe ul {
+		margin-left: 10%;
+		width: 350px;
+		margin-bottom: 20px;
+	}
+	.describe ul li {
+		font-size: 14px;
+	}
+
+	footer {
+		width: 100vw;
+	}
+}

@@ -1,0 +1,148 @@
+* {
+	padding: 0;
+	margin:0;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+#header {
+	position: relative;
+}
+#review {
+	width: 90vw;
+	padding-top: 150px;
+	margin: auto;
+	background: rgba(222,222,222, 0.1);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+#review h4 {
+	margin-left: 5em;
+}
+
+#review img {
+	position: relative;
+}
+
+.teaser {
+	margin: auto;
+	text-align: center;
+	max-width: 450px;
+}
+
+.teaser h2 {
+	margin-bottom: 1em;
+	text-transform: uppercase;
+}
+
+.teaser p {
+	color: #888888;
+	font-weight: 300;
+	margin: 1em 0;
+	line-height: 1.6em;
+}
+.teaser hr {
+	max-width: 450px;
+}
+
+.products {
+	height: 450px;
+	margin-bottom: 50px;
+	width: 32%;
+	display: inline-block;
+	text-align: center;
+}
+
+.products h1 {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.products img {
+	height: 300px;
+	border: 1px solid #f1f1f1;
+	border-radius: 150px;
+}
+
+.window {
+	height: 600px;
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 3em;
+	background: url(../image/green.jpg);
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	border: 2px solid #f2f2f2;
+	border-radius: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: (0,0,0,0.5);
+}
+
+.window a {
+border: 2px solid #ffffff;
+padding: 10px 20px;
+text-decoration: none;
+font-size: 1em;
+color: #fff;
+}
+
+.window a:hover {
+	background: #fff;
+	color: #000;
+}
+
+
+.price {
+	border: 2px solid #ccc;
+	max-width: 150px;
+	margin: auto;
+	padding: 10px;
+}
+
+.price:hover {
+	background: #000000;
+	color: #ffffff;
+}
+
+
+/*-------zoom in -------*/
+.products img:hover {
+    transition: -webkit-transform 0.5s ease;
+}
+
+.products img:hover {
+    -webkit-transform: scale(1.2);
+}
+
+@media screen and (max-width: 620px) {
+.products {
+	align-items: center;
+	margin: auto;
+	display: block;
+	margin-bottom: 20px;
+	height: 200px;
+}
+
+.products img {
+	width:100px;
+	height: 100px;
+}
+
+.window {
+	height: 300px;
+	width: 300px;
+}
+
+.bread {
+	padding-left: 1em;
+}
+
+#review h4 {
+	margin-left: 1em;
+}
+
+}
